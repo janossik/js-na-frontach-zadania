@@ -11,7 +11,7 @@ class Writer {
       fs.mkdirSync(this.defaultPath, { recursive: true });
     }
     if (!fs.existsSync(this.filePath)) {
-      fs.writeFileSync(this.filePath, '{}');
+      fs.writeFileSync(this.filePath, '{"auctions":[],"buyNow":[],"forFree":[]}');
     }
   }
 

@@ -98,7 +98,7 @@ class CartItemHandling {
   }
 
   addItems(items: AuctionItem[] | BuyNowItem[] | FreeItem[], save = true): void {
-    items.forEach((item) => this.addItem(item));
+    items.forEach((item) => this.addItem(item, false));
     save && this.save();
   }
 }

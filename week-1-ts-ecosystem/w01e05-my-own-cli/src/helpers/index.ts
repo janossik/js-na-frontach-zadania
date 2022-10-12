@@ -15,6 +15,6 @@ export const YES_OR_NO = {
 
 export type ValueOf<T> = T[keyof T];
 
-export const cartItems = new CartItemHandling(path.resolve(__dirname, 'persistent-data'), 'cart-items.json');
+export const cartItems = new CartItemHandling(path.resolve(__dirname, '..', 'persistent-data'), 'cart-items.json');
 
 export const logger = new Logger();
