@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import { ordersFakeData } from './orders/orders.fake-data';
 
 import './orders/tiles/BestSaleTile';
