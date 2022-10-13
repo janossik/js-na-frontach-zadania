@@ -13,3 +13,6 @@ export const getOrderSales = (orders: Orders): number[] => {
     return prev;
   }, []);
 };
+
+export const sumSales = (orders: Orders): number =>
+  orders.reduce((acc, { sale }) => acc + sale, 0);
