@@ -6,3 +6,10 @@ export const getDateOfOrders = (orders: Orders): DateOfOrders => {
     return prev;
   }, []);
 };
+
+export const getOrderSales = (orders: Orders): number[] => {
+  return orders.reduce<number[]>((prev, curr) => {
+    prev.push(curr.sale);
+    return prev;
+  }, []);
+};
