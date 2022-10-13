@@ -1,4 +1,4 @@
-import axios from '../helpers/MockAxios';
+import axios from '@/helpers/MockAxios';
 
 const data = await axios.default.get('/orders');
 

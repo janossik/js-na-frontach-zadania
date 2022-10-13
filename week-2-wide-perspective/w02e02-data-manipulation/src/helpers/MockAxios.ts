@@ -1,5 +1,5 @@
-import { ordersFakeData } from '../orders/orders.fake-data';
-import { getEndpoint, getQueryParams } from './parsingUrl';
+import { ordersFakeData } from '@/orders/orders.fake-data';
+import { getEndpoint, getQueryParams } from '@/helpers/parsingUrl';
 
 class MockAxios {
   default: {

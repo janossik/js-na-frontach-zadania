@@ -1,4 +1,4 @@
-import { DateOfOrder } from '../@types/order';
+import { DateOfOrder } from '@/types/order';
 
 export function makeLiElement({
   orderDate,

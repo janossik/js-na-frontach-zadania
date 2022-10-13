@@ -1,4 +1,4 @@
-import { Orders, DateOfOrders } from '../@types/order';
+import { Orders, DateOfOrders } from '@/types/order';
 
 export const getDateOfOrders = (orders: Orders): DateOfOrders => {
   return orders.reduce<DateOfOrders>((prev, curr) => {

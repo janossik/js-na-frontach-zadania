@@ -1,6 +1,6 @@
-import orders from '../featchData';
-import { getDateOfOrders } from '../../helpers/data';
-import { makeLiElement } from '../../helpers/dom';
+import { getDateOfOrders } from '@/helpers/data';
+import { makeLiElement } from '@/helpers/dom';
+import orders from '@/orders/featchData';
 
 const componentId = 'annual-orders';
 const mountPoint = document.querySelector(`[data-tile="${componentId}"]`);

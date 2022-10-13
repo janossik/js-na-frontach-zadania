@@ -15,7 +15,13 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "skipLibCheck": true,
-    "allowJs": true
+    "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/tiles/*": ["src/orders/tiles/*"],
+      "@/types/*": ["src/types/*"],
+      "@/*": ["src/*"]
+    }
   },
   "include": ["src"]
 }
